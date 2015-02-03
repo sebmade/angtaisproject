@@ -7,7 +7,7 @@ path        = require('path'),
 serveStatic = require('serve-static'),
 _ = require('lodash'),
 ID = 0,
-BP = require('./data.js');
+BP = require('./data.js').data;
 
 var app = express();
 var server = http.createServer(app);
